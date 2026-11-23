@@ -1,0 +1,14 @@
+# Course materials stay local.
+/guideline/
+
+# macOS metadata
+.DS_Store
+
+# Local tooling and credentials
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
